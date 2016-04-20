@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PoC Mapa Fluxo Navegação</title>
+<meta charset="UTF-8">
+<script src="js/go.js"></script>
+<script id="code" src="js/start.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<div>
+<span>JSON:</span>
+<input type="text" id="txtJSON" style="width:1500px; height:20px"></input>
+<div style="margin-top:20px" >
+	<p><a href="http://json.parser.online.fr/" target="_blank">Validar Sintaxe JSON</a></p>
+</div
+<div style="margin-top:20px">
+    <button onclick="createDiagram()">Gerar Fluxograma</button>
+    <div id="sample">
+    <div id="myDiagramDiv" style="border: solid 1px black; width:auto; height:500px"></div>
+</div>
+</body>
+</html>

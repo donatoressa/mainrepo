@@ -1,0 +1,14 @@
+[{
+"state": "home", "config": "{url: '/', templateUrl: './modulos/home/views/homeLogada.html', controller: 'homeCtrl as hCtrl'}"
+},
+{
+"state": "transferenciasNacionais", "config": "{url: '/transferenciasNacionais', templateUrl: './modulos/transferenciasNacionais/views/transferenciasNacionais.html', controller: 'transferenciasNacionaisCtrl as tnCtrl'}"
+},
+{
+"state": "transferenciasNacionais.passo1", "config": "{url: '/transferenciasNacionais/passo1', parent: 'transferenciasNacionais', templateUrl: './modulos/transferenciasNacionais/views/transferenciasNacionaisPasso1.html'}"
+},
+{
+"state": "transferenciasNacionais.passo2", "config": "{url: '/transferenciasNacionais/passo2', parent: 'transferenciasNacionais', templateUrl:'./modulos/transferenciasNacionais/views/transferenciasNacionaisPasso2.html'}"
+}
+]
+
